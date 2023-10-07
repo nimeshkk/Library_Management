@@ -2,6 +2,30 @@
 <html>
 <head runat="server">
 <title></title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #left{
+            height: 100vh;
+            width:30%;
+            color: white;
+            background-color: teal;
+        }
+        #left a{
+            color: white;
+            text-decoration: none;
+        }
+         .row-name {
+              
+              flex-direction:row;
+              justify-content: space-between;
+              margin:50px;
+              align-items: center;
+              padding: 20px;
+           }
+
+    </style>
 
 <link href="Stock_management\Assets\Lib\css\bootstrap.min.css" rel="stylesheet"/>
 
@@ -11,21 +35,33 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3 bg-teal">
-                <div class="row">
-                     <div class="col-2">
-                       
-                     </div>
-                     <div class="col-2">
-                        <h3>Inventory</h3>
-                     </div>
+           <div class="col-2" id="left">
+               <div style="height:30px">
+               </div>
 
-            </div>
+               <div class="row-name">
+
+               <div class="mb-2">
+                    <a href="#"><lable>Inventory</lable></a>  
+               </div>
+
+               <div class="mb-2">
+                       <a href="#"><lable>Sellers</lable></a>  
+                </div>
+
+               <div class="mb-2">
+                       <a href="#"><lable>Categories</lable></a>  
+                </div>
+
+               <div class="mb-2">
+                     <a href="#"><lable>User</lable></a>  
+                </div>
+
+             </div>
+                      
            </div>
-            
 
-        </div>
-
+       </div>
     </div>
     <form id="form1" runat="server">
         <div>
@@ -33,6 +69,7 @@
 
             </asp:ContentPlaceHolder> 
         </div>
+
 
     </form>
 
