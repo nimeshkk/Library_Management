@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" %>
+<html>
+<head runat="server">
+<title></title>
+
+<link href="Stock_management\Assets\Lib\css\bootstrap.min.css" rel="stylesheet"/>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-teal">
+                <div class="row">
+                     <div class="col-2">
+                       
+                     </div>
+                     <div class="col-2">
+                        <h3>Inventory</h3>
+                     </div>
+
+            </div>
+           </div>
+            
+
+        </div>
+
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MyContent" runat="server">
+
+            </asp:ContentPlaceHolder> 
+        </div>
+
+    </form>
+
+</body>
+
+</html>
