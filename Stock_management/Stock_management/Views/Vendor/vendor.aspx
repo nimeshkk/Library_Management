@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Stock_management.Views.Vendor.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="vendor.aspx.cs" Inherits="Stock_management.Views.Vendor.WebForm1" %>
 
 <!DOCTYPE html>
 
