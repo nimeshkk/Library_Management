@@ -14,9 +14,9 @@
         }
         #left a{
             color: white;
-            text-decoration: none;
             display:flex;
             padding: 20px;
+            text-decoration:none;
             
         }
         #left a:hover{
@@ -27,8 +27,8 @@
 
               display:flex;
              
-              font-size: 20px;
-              padding: 20px;
+              font-size: 15px;
+              padding: 10px;
          }
 
     </style>
@@ -46,22 +46,22 @@
 
                <div class="row-name">
 
-               <div class="mb-2">
+               <div class="mb-3">
                     <a href="#"><lable>Inventory</lable></a>  
                </div>
                  
 
-               <div class="mb-2">
+               <div class="mb-3">
                        <a href="#"><lable>Sellers</lable></a>  
                 </div>
                   
 
-               <div class="mb-2">
+               <div class="mb-3">
                        <a href="#"><lable>Categories</lable></a>  
                 </div>
                    
 
-               <div class="mb-2">
+               <div class="mb-3">
                      <a href="#"><lable>User</lable></a>  
                 </div>
 
