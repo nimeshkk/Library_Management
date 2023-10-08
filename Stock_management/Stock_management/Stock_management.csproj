@@ -82,6 +82,7 @@
     <Content Include="Views\Admin\Inventory.aspx" />
     <Content Include="Views\Admin\Seller.aspx" />
     <Content Include="Views\Admin\user.aspx" />
+    <Content Include="Views\Vendor\vendor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +117,13 @@
     </Compile>
     <Compile Include="Views\Admin\user.aspx.designer.cs">
       <DependentUpon>user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Vendor\vendor.aspx.cs">
+      <DependentUpon>vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Vendor\vendor.aspx.designer.cs">
+      <DependentUpon>vendor.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
