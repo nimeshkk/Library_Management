@@ -79,6 +79,7 @@
     <Content Include="Assets\Lib\js\bootstrap.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Views\Admin\Inventory.aspx" />
+    <Content Include="Views\Vendor\Vendor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="Views\Admin\Inventory.aspx.designer.cs">
       <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Vendor\Vendor.aspx.cs">
+      <DependentUpon>Vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Vendor\Vendor.aspx.designer.cs">
+      <DependentUpon>Vendor.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
