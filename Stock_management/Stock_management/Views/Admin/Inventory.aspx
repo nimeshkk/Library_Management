@@ -95,25 +95,25 @@
             <div class="col-md-4">
                 <div>
                     <label for="txtTitle1" class="form-label">Item Name</label>
-                    <input type="text" id="txtTitle1" class="form-control" />
+                    <input type="text" id="txtTitle1" class="form-control" placeholder=" Enter Item Name"/>
                 </div>
             </div>
             <div class="col-md-4">
                 <div>
                     <label for="txtTitle2" class="form-label">Price</label>
-                    <input type="text" id="txtTitle2" class="form-control" />
+                    <input type="text" id="txtTitle2" class="form-control" placeholder="Enter Price" />
                 </div>
             </div>
             <div class="col-md-4">
                 <div>
                     <label for="txtTitle3" class="form-label">Quantity</label>
-                    <input type="text" id="txtTitle3" class="form-control" />
+                    <input type="text" id="txtTitle3" class="form-control" placeholder="Enter Quantity" />
                 </div>
             </div>
             <div class="col-md-4">
                 <div>
                     <label for="txtTitle4" class="form-label">Categories</label>
-                    <input type="text" id="txtTitle4" class="form-control" />
+                    <input type="text" id="txtTitle4" class="form-control" placeholder="Enter Categories" />
                 </div>
             </div>
             <div class="col-md-12">
@@ -123,6 +123,9 @@
                     <button class="btn btn-success" id="btnUpdate">Update</button>
                 </div>
             </div>
+             <div class="col-md-8">
+                 <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+             </div>
         </div>
     </div>
 </asp:Content>

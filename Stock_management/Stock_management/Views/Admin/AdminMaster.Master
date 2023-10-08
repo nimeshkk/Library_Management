@@ -52,17 +52,17 @@
                  
 
                <div class="mb-3">
-                       <a href="#"><lable>Sellers</lable></a>  
+                       <a href="Seller.aspx"><lable>Sellers</lable></a>  
                 </div>
                   
 
                <div class="mb-3">
-                       <a href="#"><lable>Categories</lable></a>  
+                       <a href="Categories.aspx"><lable>Categories</lable></a>  
                 </div>
                    
 
                <div class="mb-3">
-                     <a href="#"><lable>User</lable></a>  
+                     <a href="user.aspx"><lable>User</lable></a>  
                 </div>
 
              </div>
