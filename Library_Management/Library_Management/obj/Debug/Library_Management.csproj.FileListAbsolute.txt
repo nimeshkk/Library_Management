@@ -8,3 +8,15 @@ E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.exe
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.Dashbord.resources
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\bin\Debug\Library_Management.exe.config
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\bin\Debug\Library_Management.exe
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\bin\Debug\Library_Management.pdb
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.AssemblyReference.cache
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.SuggestedBindingRedirects.cache
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.Dashbord.resources
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.Form1.resources
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.Properties.Resources.resources
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.GenerateResource.cache
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.CoreCompileInputs.cache
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.exe
+D:\third year\first sem\adms\GroupWork repo\Stock_Management\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
