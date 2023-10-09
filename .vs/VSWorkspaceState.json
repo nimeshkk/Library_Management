@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Library_Management",
+    "\\Library_Management\\Library_Management"
   ],
-  "SelectedNode": "\\E:\\LM",
+  "SelectedNode": "\\Library_Management\\Library_Management\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
