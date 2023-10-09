@@ -21,5 +21,47 @@ namespace Library_Management
         {
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddBook ab = new AddBook();
+            ab.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ViewBook vb = new ViewBook();
+            vb.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AddStudent ast = new AddStudent();
+            ast.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            IssueBook ib = new IssueBook();
+            ib.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ReturnBook rb = new ReturnBook();
+            rb.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            IssueBookReport ibr = new IssueBookReport();
+            ibr.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ReturnBook ib = new ReturnBook();
+            ib.Show();
+        }
     }
 }
