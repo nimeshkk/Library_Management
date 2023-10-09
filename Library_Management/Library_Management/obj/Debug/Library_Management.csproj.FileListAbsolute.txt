@@ -10,3 +10,4 @@ E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.Dashbord.resources
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.AddBook.resources
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.AddStudent.resources
+E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.Login.resources
