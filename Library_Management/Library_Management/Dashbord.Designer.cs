@@ -86,7 +86,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(202, 62);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Return Book";
+            this.button2.Text = "Return Book Report";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -134,7 +134,7 @@
             this.button6.BackColor = System.Drawing.Color.CadetBlue;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Honeydew;
-            this.button6.Location = new System.Drawing.Point(29, 280);
+            this.button6.Location = new System.Drawing.Point(29, 212);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(202, 62);
             this.button6.TabIndex = 7;
@@ -147,7 +147,7 @@
             this.button7.BackColor = System.Drawing.Color.CadetBlue;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.Honeydew;
-            this.button7.Location = new System.Drawing.Point(29, 212);
+            this.button7.Location = new System.Drawing.Point(29, 280);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(202, 62);
             this.button7.TabIndex = 8;

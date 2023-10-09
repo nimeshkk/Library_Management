@@ -16,5 +16,31 @@ namespace Library_Management
         {
             InitializeComponent();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+           
+            
+            Dashbord dab = new Dashbord();
+            dab.Show();
+            this.Hide();
+            
+        }
     }
 }

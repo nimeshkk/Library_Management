@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Library_Management
 {
-    public partial class AddStudent : Form
+    public partial class ReturnBookReport : Form
     {
-        public AddStudent()
+        public ReturnBookReport()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Dashbord dab = new Dashbord();
-            dab.Show();
-            this.Hide();
         }
     }
 }

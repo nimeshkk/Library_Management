@@ -24,8 +24,12 @@ namespace Library_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             AddBook ab = new AddBook();
             ab.Show();
+            this.Hide();
+            
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -38,6 +42,7 @@ namespace Library_Management
         {
             AddStudent ast = new AddStudent();
             ast.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -60,8 +65,8 @@ namespace Library_Management
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ReturnBook ib = new ReturnBook();
-            ib.Show();
+            ReturnBookReport rbr = new ReturnBookReport();
+            rbr.Show();
         }
     }
 }
