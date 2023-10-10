@@ -24,6 +24,7 @@ namespace Library_Management
                 cmd.Parameters.Add("@username", SqlDbType.NVarChar).Value = textBox1.Text;
                 cmd.Parameters.Add("@password", SqlDbType.NVarChar).Value = textBox2.Text;
                 SqlDataReader dr = cmd.ExecuteReader();
+
                 if (dr.Read())
                 {
                     Dashbord db = new Dashbord();
