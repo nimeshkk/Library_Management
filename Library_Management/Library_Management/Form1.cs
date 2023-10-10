@@ -38,6 +38,7 @@ namespace Library_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+            /*
             // Define the username and password
             string username = "data"; // Replace with your actual username
             string password = "123"; // Replace with your actual password
@@ -54,11 +55,11 @@ namespace Library_Management
             else
             {
                 MessageBox.Show("Login Failed");
-            }
+            }*/
 
 
 
-            /*
+            
             con.Open();
             SqlCommand cmd = new SqlCommand("sp_login", con);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -75,7 +76,7 @@ namespace Library_Management
                 MessageBox.Show("Login Failed");
             }
 
-            con.Close();*/
+            con.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
