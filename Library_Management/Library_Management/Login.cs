@@ -50,6 +50,18 @@ namespace Library_Management
         {
            
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            SignUp su = new SignUp();
+            su.Show();
+            this.Hide();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

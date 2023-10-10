@@ -96,17 +96,17 @@
     <Compile Include="ReturnBookReport.Designer.cs">
       <DependentUpon>ReturnBookReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewBook.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ViewBook.Designer.cs">
       <DependentUpon>ViewBook.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewBooks.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewBooks.Designer.cs">
-      <DependentUpon>ViewBooks.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddBook.resx">
       <DependentUpon>AddBook.cs</DependentUpon>
@@ -130,8 +130,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ViewBooks.resx">
-      <DependentUpon>ViewBooks.cs</DependentUpon>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBook.resx">
+      <DependentUpon>ViewBook.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

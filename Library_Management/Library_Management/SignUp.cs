@@ -11,33 +11,32 @@ using System.Windows.Forms;
 
 namespace Library_Management
 {
-    public partial class CreateAccount : Form
+    public partial class SignUp : Form
     {
-        public CreateAccount()
+        public SignUp()
         {
             InitializeComponent();
         }
-
-        private void CreateAccount_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
         SqlConnection con = new SqlConnection("Data Source=NIMESH;Initial Catalog=library;Integrated Security=True;");
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-               
+           
+
                 if (textBox2.Text != textBox3.Text)
                 {
                     MessageBox.Show("Password and Confirm Password do not match.");
-                    return; 
+                    return;
                 }
 
                 con.Open();
@@ -53,24 +52,15 @@ namespace Library_Management
                     Login lg = new Login();
                     lg.Show();
                     this.Hide();
-                   
+
                 }
                 else
                 {
                     MessageBox.Show("Account creation failed.");
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
             Login lg = new Login();
             lg.Show();

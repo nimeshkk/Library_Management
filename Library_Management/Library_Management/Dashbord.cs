@@ -34,8 +34,7 @@ namespace Library_Management
 
         private void button7_Click(object sender, EventArgs e)
         {
-            ViewBook vb = new ViewBook();
-            vb.Show();
+            
         }
 
         private void button6_Click(object sender, EventArgs e)

@@ -11,3 +11,17 @@ E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.Dashbor
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.AddBook.resources
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.AddStudent.resources
 E:\LM\Library_Management\Library_Management\obj\Debug\Library_Management.Login.resources
+E:\LM2\Library_Management\Library_Management\bin\Debug\Library_Management.exe.config
+E:\LM2\Library_Management\Library_Management\bin\Debug\Library_Management.exe
+E:\LM2\Library_Management\Library_Management\bin\Debug\Library_Management.pdb
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.AssemblyReference.cache
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.AddBook.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.AddStudent.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.Dashbord.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.Login.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.Properties.Resources.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.GenerateResource.cache
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.CoreCompileInputs.cache
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.exe
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.SignUp.resources
