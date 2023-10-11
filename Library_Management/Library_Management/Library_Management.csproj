@@ -120,6 +120,9 @@
     <EmbeddedResource Include="IssueBook.resx">
       <DependentUpon>IssueBook.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IssueBookReport.resx">
+      <DependentUpon>IssueBookReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +136,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReturnBook.resx">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>

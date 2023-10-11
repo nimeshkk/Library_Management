@@ -296,7 +296,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "IssueBook";
-            this.Text = "IssueBook";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

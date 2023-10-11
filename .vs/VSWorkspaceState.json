@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Library_Management",
-    "\\Library_Management\\Library_Management"
+    ""
   ],
-  "SelectedNode": "\\Library_Management\\Library_Management\\Login.cs",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\Library_Management.sln",
+  "PreviewInSolutionExplorer": true
 }
