@@ -41,3 +41,4 @@ C:\Users\LENOVO\Source\Repos\library\Library_Management\Library_Management\obj\D
 C:\Users\LENOVO\Source\Repos\library\Library_Management\Library_Management\bin\Debug\Library_Management.exe.config
 C:\Users\LENOVO\Source\Repos\library\Library_Management\Library_Management\bin\Debug\Library_Management.exe
 C:\Users\LENOVO\Source\Repos\library\Library_Management\Library_Management\bin\Debug\Library_Management.pdb
+C:\Users\LENOVO\source\repos\library\Library_Management\Library_Management\obj\Debug\Library_Management.IssueBook.resources
