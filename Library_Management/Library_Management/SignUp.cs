@@ -31,13 +31,18 @@ namespace Library_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
 
-                if (textBox2.Text != textBox3.Text)
-                {
-                    MessageBox.Show("Password and Confirm Password do not match.");
-                    return;
-                }
+
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text))
+            {
+                MessageBox.Show("Please fill in all the fields.");
+            }
+            else if(textBox2.Text != textBox3.Text)
+            {
+                MessageBox.Show("Password and Confirm Password do not match.");
+            }
+            else
+            {
 
                 con.Open();
                 SqlCommand cmd = new SqlCommand("INSERT INTO Login (Username, Password) VALUES (@username, @password)", con);
@@ -58,6 +63,11 @@ namespace Library_Management
                 {
                     MessageBox.Show("Account creation failed.");
                 }
+
+            }
+           
+
+           
             }
 
         private void label4_Click(object sender, EventArgs e)
