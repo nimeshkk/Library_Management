@@ -70,6 +70,7 @@
             this.button1.TabIndex = 31;
             this.button1.Text = "Add Student";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -83,7 +84,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(290, 207);
+            this.textBox6.Location = new System.Drawing.Point(290, 471);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(348, 40);
@@ -91,7 +92,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(290, 456);
+            this.textBox5.Location = new System.Drawing.Point(290, 404);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(348, 40);
@@ -99,7 +100,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(290, 400);
+            this.textBox4.Location = new System.Drawing.Point(290, 338);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(348, 40);
@@ -200,7 +201,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(290, 329);
+            this.textBox2.Location = new System.Drawing.Point(290, 211);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(348, 40);
