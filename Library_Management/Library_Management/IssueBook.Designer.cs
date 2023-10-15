@@ -60,6 +60,7 @@
             this.button2.TabIndex = 30;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -76,7 +77,7 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(667, 302);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(209, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(348, 26);
             this.dateTimePicker1.TabIndex = 28;
             this.dateTimePicker1.Value = new System.DateTime(2023, 10, 9, 22, 25, 19, 0);
             // 
@@ -127,9 +128,9 @@
             this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label7.Location = new System.Drawing.Point(431, 394);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(201, 31);
+            this.label7.Size = new System.Drawing.Size(172, 31);
             this.label7.TabIndex = 22;
-            this.label7.Text = "Student Contact";
+            this.label7.Text = "Student Email";
             // 
             // label6
             // 
@@ -183,16 +184,16 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label2.Location = new System.Drawing.Point(431, 348);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 31);
+            this.label2.Size = new System.Drawing.Size(201, 31);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Student Email";
+            this.label2.Text = "Student Contact";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(431, 440);
+            this.label1.Location = new System.Drawing.Point(98, 143);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(148, 31);
             this.label1.TabIndex = 31;
@@ -202,7 +203,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ItemHeight = 20;
-            this.comboBox1.Location = new System.Drawing.Point(667, 446);
+            this.comboBox1.Location = new System.Drawing.Point(12, 177);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(348, 28);
             this.comboBox1.TabIndex = 33;
@@ -210,7 +211,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(12, 206);
+            this.textBox6.Location = new System.Drawing.Point(12, 274);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(348, 40);
@@ -221,7 +222,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label8.Location = new System.Drawing.Point(120, 159);
+            this.label8.Location = new System.Drawing.Point(111, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(120, 31);
             this.label8.TabIndex = 34;
@@ -242,7 +243,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(104, 262);
+            this.button3.Location = new System.Drawing.Point(104, 332);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(160, 52);
             this.button3.TabIndex = 37;

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Library_Management
 {
@@ -46,7 +47,68 @@ namespace Library_Management
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
+            if (string.IsNullOrWhiteSpace(textBox6.Text))
+            {
+                MessageBox.Show("Please enter a value in EnrollNo.");
+            }
+            else if (string.IsNullOrWhiteSpace(comboBox1.Text))
+            {
+                MessageBox.Show("Please select a value in comboBox1.");
+            }
+            else
+            {
+                con.Open();
+
+                using (SqlCommand cmd = new SqlCommand("ViewStudents", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add("@EnrollNo", SqlDbType.NVarChar).Value = textBox6.Text;
+
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    bool found = false; 
+
+                    while (dr.Read())
+                    {
+                        found = true; 
+
+                        string studentName = dr["StudentName"].ToString();
+                        string enrollNo = dr["EnrollNo"].ToString();
+                        string depName = dr["DepName"].ToString();
+                        string studentContact = dr["StudentContact"].ToString();
+                        string studentEmail = dr["StudentEmail"].ToString();
+
+                        textBox1.Text = studentName;
+                        textBox2.Text = enrollNo;
+                        textBox3.Text = depName;
+                        textBox4.Text = studentContact;
+                        textBox5.Text = studentEmail;
+                    }
+
+                    dr.Close();
+
+                    con.Close();
+
+                    if (!found)
+                    {
+                        MessageBox.Show("No data found for the provided EnrollNo.");
+                        textBox1.Clear();
+                        textBox2.Clear();
+                        textBox3.Clear();
+                        textBox4.Clear();
+                        textBox5.Clear();
+                    }
+                }
+            }
+
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Dashbord d = new Dashboard();
+            d.Show();
+            this.Hide();
         }
     }
 }
