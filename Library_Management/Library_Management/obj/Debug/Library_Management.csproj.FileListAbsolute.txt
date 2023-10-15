@@ -27,3 +27,4 @@ E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.SignUp.resources
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.ViewBook.resources
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.StudentView.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.IssueBook.resources
