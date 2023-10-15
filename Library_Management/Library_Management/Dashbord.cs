@@ -34,7 +34,9 @@ namespace Library_Management
 
         private void button7_Click(object sender, EventArgs e)
         {
-            
+            ViewBook vb = new ViewBook();
+            vb.Show();
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -66,6 +68,13 @@ namespace Library_Management
         {
             ReturnBookReport rbr = new ReturnBookReport();
             rbr.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            StudentView sv = new StudentView();
+            sv.Show();
+            this.Hide();
         }
     }
 }
