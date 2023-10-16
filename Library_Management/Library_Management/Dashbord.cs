@@ -76,5 +76,10 @@ namespace Library_Management
             sv.Show();
             this.Hide();
         }
+
+        private void Dashbord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -106,9 +106,47 @@ namespace Library_Management
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Dashbord d = new Dashboard();
-            d.Show();
+           Dashbord db = new Dashbord();
+            db.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("sp_issuebook", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Student_Name", SqlDbType.NVarChar).Value = textBox1.Text;
+                cmd.Parameters.Add("@Enrollment_No", SqlDbType.NVarChar).Value = textBox2.Text;
+                cmd.Parameters.Add("@Department ", SqlDbType.NVarChar).Value = textBox3.Text;
+                cmd.Parameters.Add("@Contact", SqlDbType.NVarChar).Value = textBox4.Text;
+                cmd.Parameters.Add("@Email", SqlDbType.NVarChar).Value = textBox5.Text;
+                cmd.Parameters.Add("@BookName", SqlDbType.NVarChar).Value = comboBox1.Text;
+                cmd.Parameters.Add("@Issue_Date", SqlDbType.Date).Value = dateTimePicker1.Value;
+                cmd.Parameters.Add("@Return_Date", SqlDbType.NVarChar).Value = "";
+
+                cmd.ExecuteNonQuery();
+                MessageBox.Show(" Issue Book Added Successfully");
+
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+                textBox5.Clear();
+                textBox6.Clear();
+                comboBox1.Text = "";
+                dateTimePicker1.Value = DateTime.Now;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
         }
     }
 }
