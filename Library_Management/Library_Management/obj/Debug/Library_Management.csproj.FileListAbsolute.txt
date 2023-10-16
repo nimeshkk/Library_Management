@@ -28,3 +28,4 @@ E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.SignUp
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.ViewBook.resources
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.StudentView.resources
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.IssueBook.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.ReturnBook.resources
