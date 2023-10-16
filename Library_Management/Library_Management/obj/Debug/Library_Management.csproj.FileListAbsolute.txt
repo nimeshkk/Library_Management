@@ -29,3 +29,5 @@ E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.ViewBo
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.StudentView.resources
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.IssueBook.resources
 E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.ReturnBook.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.IssueBookReport.resources
+E:\LM2\Library_Management\Library_Management\obj\Debug\Library_Management.ReturnBookReport.resources
